@@ -32,8 +32,6 @@ REQUIRED FACTS BEFORE THE PRIVACY TEXT CAN BE COMPLETED
     any limits or delayed deletion. Do not invent deletion periods.
 [ ] Security: verify credential handling, access controls, and applicable
     storage/transport protections before making any specific claim.
-[ ] Public contact: choose an address/method the owner approves for publication.
-    Do not automatically publish the email shown in Google Cloud.
 [ ] Approvals: confirm whether consequential assistant actions require review.
     The terms recommend review but do not claim it is technically enforced.
 [ ] Future hosting: review GitHub Pages visitor logging and privacy information
