@@ -1,0 +1,69 @@
+SPARKY GOOGLE ACCESS SITE — OWNER REVIEW CHECKLIST
+Prepared: 16 October 2026
+Status: LOCAL, UNPUBLISHED DRAFT. Publication has not been approved.
+
+OPEN THE DRAFT
+Open index.html in a browser. All page and stylesheet links are relative, so
+the same layout can later work under a GitHub Pages repository subpath.
+There is no build step, JavaScript, external dependency, or sign-in flow.
+
+KNOWN SCOPE
+- Sparky is the owner's personal OpenClaw assistant.
+- The user has confirmed personal use with Gmail, Drive, and Calendar.
+- The user has confirmed Sparky uses a combination of local models and OpenAI.
+  Exact Google-content routing and OpenAI access/account controls are unknown.
+- This is not an invented business or public sign-up service.
+- Google Cloud currently displays project "Openclaw Gmail" and app name
+  "OpenClaw Gmail assistant." Check consistent naming before publication;
+  the draft site uses the user's name "Sparky." No Google names were changed.
+
+REQUIRED FACTS BEFORE THE PRIVACY TEXT CAN BE COMPLETED
+[ ] AI routing: confirm which Google content/metadata goes to local models
+    and which goes to OpenAI, through which workflows and for what purposes.
+    Confirm the OpenAI access method/account controls and any other recipients.
+[ ] Provider data practices: confirm the actual account/product settings and
+    applicable terms for use, retention, training, and access. Do not infer
+    these practices from a provider's name or from personal-use intent.
+[ ] Actual OAuth scopes: record the permissions the assistant requests and
+    the data/actions they allow. Include other Google services if configured.
+[ ] Storage and retention: document agent memory, history, logs, caches,
+    databases, backups, provider copies, locations, and actual retention.
+[ ] Deletion: verify disconnection and removal procedures separately, including
+    any limits or delayed deletion. Do not invent deletion periods.
+[ ] Security: verify credential handling, access controls, and applicable
+    storage/transport protections before making any specific claim.
+[ ] Public contact: choose an address/method the owner approves for publication.
+    Do not automatically publish the email shown in Google Cloud.
+[ ] Approvals: confirm whether consequential assistant actions require review.
+    The terms recommend review but do not claim it is technically enforced.
+[ ] Future hosting: review GitHub Pages visitor logging and privacy information
+    if GitHub Pages is chosen. This draft makes no hosting/logging promises.
+
+REVIEW THE CONTENT
+[ ] Replace every "To confirm" item and bracketed placeholder with verified
+    wording, or remove a statement if it does not apply.
+[ ] Confirm service names, personal-use scope, and app/site naming.
+[ ] Confirm that the homepage, privacy, and terms accurately match the setup.
+[ ] Check current Google homepage, privacy, domain, and OAuth requirements.
+    This draft is not a guarantee of verification or publishing eligibility.
+[ ] Set a publication/effective date only once the text is approved.
+[ ] Remove draft banners and review-only text only after owner review.
+    The noindex/nofollow metadata is a draft hint, not access protection.
+
+PUBLICATION IS A SEPARATE STEP
+- Do not create a repository, push, upload, deploy, or change Google settings
+  as part of this preparation task.
+- No website address is final until a hosting destination has been chosen.
+- For a later GitHub Pages project site, place index.html, privacy.html,
+  terms.html, and styles.css together in the selected published directory.
+  Exclude this checklist and local QA files from any eventual publication.
+- Get explicit owner approval before publication or Google configuration
+  changes. Do not create credentials, reconnect OAuth, submit verification,
+  change permissions, or change billing during draft preparation.
+
+FILES
+index.html    Homepage
+privacy.html  Privacy draft with prominent unresolved facts
+terms.html    Limited personal-use notes
+styles.css    Shared responsive styling; local system fonts only
+REVIEW_CHECKLIST.txt  This review-only checklist
